@@ -16,6 +16,7 @@ namespace Lesson04.Constructor
             emp01 = new Employees(1001, "Chung Trinh Van", 123456); // Khởi tạo đối tượng với hàm tạo có tham số
             emp01.ShowInfor();
 
+           
             Console.ReadKey();
         }
     }
@@ -52,6 +53,7 @@ namespace Lesson04.Constructor
         ~Employees()
         {
             Console.WriteLine("Goodbye!");
+            System.Diagnostics.Trace.WriteLine("Goodbye!");
         }
     }
 }
